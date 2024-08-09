@@ -1,4 +1,4 @@
-* Micro-Go Application
+** Micro-Go Application 
 * Overview
 This Go-based microservice is designed to provide scalable and reliable backend services. The service is built with modularity in mind, making it easy to extend and maintain. The core functionality includes handling orders and interacting with a Redis cache for efficient data storage and retrieval.
 
