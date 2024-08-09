@@ -1,8 +1,8 @@
 # Micro-Go Application 
-* Overview
+## Overview
 This Go-based microservice is designed to provide scalable and reliable backend services. The service is built with modularity in mind, making it easy to extend and maintain. The core functionality includes handling orders and interacting with a Redis cache for efficient data storage and retrieval.
 
-* Features
+## Features
 * Modular Design: The application is structured with a focus on maintainability and scalability.
 * Redis Integration: Utilizes Redis for efficient caching and data management.
 * Graceful Shutdown: Handles OS signals for clean shutdowns and resource management.
@@ -12,7 +12,7 @@ Go 1.17 or later
 Redis Server
 Docker (optional, for containerization)
 
-* Installation
+## Installation
 
 bash
 ```
@@ -34,10 +34,10 @@ go run main.go
 ### Configuration
 The application can be configured through a config.go file where various parameters like Redis connection details, port numbers, etc., are specified.
 
-#### Usage
+### Usage
 After starting the application, you can interact with it through various endpoints that handle order processing. The application listens on port 8080 by default.
 
-##### Deployment
+### Deployment
 To deploy this microservice on Kubernetes or Docker, you can use the provided Dockerfile and kubernetes.yaml files (if available).
 
 ###### Contributing
